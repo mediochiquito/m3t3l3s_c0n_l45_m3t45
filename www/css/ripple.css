@@ -1,0 +1,89 @@
+.ink {
+    display:block;
+    position:absolute;
+    border-radius: 100%;
+    -webkit-transform:scale(0);
+    -ms-transform:scale(0);
+    transform:scale(0);
+}
+.ink-animation{
+    -webkit-animation: grow 0.65s linear;
+    animation: grow 0.65s linear;
+}
+.ink-animation.fade{
+    -webkit-animation:
+        grow 0.65s linear,
+        fade 0.65s linear;
+    animation:
+        grow 0.65s linear,
+        fade 0.65s linear;
+    
+    /**transition: opacity, transform 0.65s linear;
+    transform: scale(2.5);
+    opacity: 0;*/
+}
+.ink-animation.pressed{
+    -webkit-animation: growSlow 14s linear;
+    animation: growSlow 14s linear;
+}
+
+.ink-animation.pressed.fade{
+    -webkit-animation:
+        grow 14s linear,
+        fade 14s linear;
+    animation:
+        grow 14s linear,
+        fade 14s linear;
+}
+@keyframes growSlow{ 
+    100% {
+        -webkit-transform:scale(2.5);
+        transform:scale(2.5);
+    }
+}
+@-webkit-keyframes growSlow{
+    100% {
+        -webkit-transform:scale(2.5);
+        transform:scale(2.5);
+    }
+}
+@keyframes grow{
+    100% {
+        opacity:0;
+        -webkit-transform:scale(2.5);
+        transform:scale(2.5);
+    }
+}
+@-webkit-keyframes grow{
+    100% {
+        opacity:0; 
+        -webkit-transform:scale(2.5); 
+        transform:scale(2.5);
+    }
+}
+
+@keyframes growSlow{ 
+    100% {
+        -webkit-transform:scale(2.5);
+        transform:scale(2.5);
+    }
+}
+@-webkit-keyframes growSlow{
+    100% {
+        -webkit-transform:scale(2.5);
+        transform:scale(2.5);
+    }
+}
+/************Fade****************/
+@keyframes fade-out{
+    100% {
+        opacity:0;
+    }
+}
+@-webkit-keyframes fade-out{
+    100% {
+        opacity:0; 
+    }
+}
+
+

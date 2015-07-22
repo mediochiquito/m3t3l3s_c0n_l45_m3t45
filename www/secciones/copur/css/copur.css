@@ -1,0 +1,903 @@
+#copur{
+    min-height: 640px;  
+    background-image: url(../img/fondos/bg0.jpg);
+    background-size: cover;
+    background-color: #CC0809;
+    background-position: 50%;
+}
+.copur_alto_min{
+   min-height: 770px !important;  
+}
+#copur *{
+  
+}
+
+.copur-btn{
+    transition:.3s;
+    background-color: #fff;
+  
+    border-radius: 8px;
+    
+
+    padding: 9px 50px 8px 50px;
+    
+
+    font-size: 18px;
+    
+
+    color: red;
+    text-align: center;
+    -webkit-box-shadow: inset 0px -13px 2px -12px rgba(128,128,128,1); 
+    -moz-box-shadow: inset 0px -13px 2px -12px rgba(128,128,128,1); 
+    
+
+    box-shadow: inset 0px -13px 2px -12px rgba(128,128,128,1);
+    
+
+    font-family: 'GothamBook';   
+    
+
+    text-transform: uppercase;      
+    
+
+    -webkit-font-smoothing: antialiased;
+    
+
+    text-decoration: underline;
+    
+
+    position: relative;
+    
+
+    display: inline;
+    box-sizing: border-box;
+
+}
+.seccionCopur {
+  position: absolute;
+  box-sizing: border-box;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transform:translate3d(0,0,0);
+
+}
+#copur-secciones{
+    position: relative;
+    width: 100%;
+    transition:1s;
+    height: 150%;
+    -webkit-font-smoothing: antialiased;
+}
+.bg0{
+   background-image: url(../img/fondos/bg0.jpg);
+}
+.bg1{
+   background-image: url(../img/fondos/bg1.jpg);
+}
+.bgMobile{
+   background-image: url(../img/fondos/bgMobile.jpg);
+}
+
+
+#copur-selector-flecha_izq{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -450px;
+    /* left: 50px; */
+}
+
+#copur-selector-flecha_der{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 395px;
+    /* right: 50px; */
+}
+
+
+#copur-SeccionHome{
+left: 0%;
+  /* background-image: url(../img/layout0.jpg) ; */
+  background-repeat: no-repeat;
+}
+
+.copur_atletas_expandidos{
+  height: 860px;
+}
+
+#copur-SeccionHome > div{
+  width: 1018px;
+  height: 380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -520px;
+  margin-top: -312px;
+}
+
+#copur-SeccionHome .txt0{
+  font-family: 'GothamBook';
+  color: #fff;
+  font-size: 123px;
+  width: 622px;
+  position: relative;
+  float: left;
+  line-height: 118px;
+  padding: 0;
+}
+#copur-SeccionHome .txt0 span{
+    font-size: 141px;
+    display: block;
+  
+}
+#copur-SeccionHome .txt1{
+    font-family: 'GothamBold';
+  color: #fff;position: relative;  width: 622px;
+    font-size: 20px;
+    float: left;
+    letter-spacing: 7px;
+    padding-left: 14px;
+}
+#copur-SeccionHome .txt2{
+    font-family: 'GothamBook';   color: #fff;   
+    font-size: 15px;      
+    width: 382px;   position: relative;   float: left;
+    line-height: 18px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#copur-home-content-btns{
+  position: relative; 
+  height: 50px;
+  text-align: center;
+  clear: both;
+  padding-top: 59px;
+}
+#copur-home-btn-quiero-donar{
+    margin-right: 20px;
+  
+    display: block;
+    width: 269px;
+    display: inline-block;
+}
+#copur-home-btn-quiero-profiles{
+    margin-left: 20px;
+  
+    display: inline-block;
+}
+
+
+
+
+ 
+
+/*______________________ VIDEOS _______________________________________________________________________________________________*/
+
+#copur-SeccionVideo{
+    left: 100%;
+}
+#copur-SeccionVideo > div{
+
+      height: 250px;
+      
+
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      
+      top: 50%;
+      
+
+      margin-top: -356px;
+      
+      
+
+}
+
+#copur-SeccionVideo .txt0{
+ font-family: 'GothamBook';
+  color: #fff;
+  
+ font-size: 27px;
+  width: 100%;
+  position: relative;
+
+  padding: 0;
+
+ font-weight: 600;
+ margin-bottom: 25px;
+}
+
+#copur-SeccionVideo .video{
+   
+    position: relative; 
+    width: 680px;
+    height: 390px;
+    background-color: #000;
+    margin: 0 auto;     
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*______________________ PROFILES _______________________________________________________________________________________________*/
+
+
+#copur-SeccionProfiles{
+    left: 200%;
+}
+
+.tw_inline{
+  position: absolute;
+  bottom: 17px;
+  left: 18px;
+  width: 55%;
+  text-align: left;
+  font-family: 'GothamBold';
+  color: #333;
+  font-size: 14px;
+  display: none;
+}
+.tw_inline img{
+    width: 30px;
+    vertical-align: middle;
+}
+.tw_inline span{
+}
+
+.pico-detalle{
+    position: absolute;
+
+    left: 50%;
+    top: -20px;
+    height: 20px;
+    width: 30px;
+    margin-left: -15px;
+    transition: .3s;
+    display: none;
+}
+
+.pico-detalle_ziq{
+    margin-left: -190px;
+  
+}
+.pico-detalle_der{
+    margin-left: 162px;
+  
+}
+.copurDetalleHolder{
+  background-color: #fff; 
+  position: relative;
+  width: 100%;
+  height: 0px;
+  display: none !important;
+  
+  margin: 0 auto;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+ 
+}
+.copurDetalleHolder > div{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.detalle_abierto{
+  height: 296px !important;
+}
+
+.copur_atletas_expandidos_div{
+    margin-top: -520px !important;
+  
+}
+
+.copurDetalle-cerrar-btn{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 35px;
+}
+
+.bio_title{
+  font-family: 'GothamBold';
+  position: relative;
+  float: left;
+  margin: 15px 10px 10px 19px;
+  width: 60%;
+  text-align: left;
+}
+
+.tw_title{
+
+    font-family: 'GothamBold';
+  
+
+    position: absolute;
+  float: left;
+  
+
+    margin: 15px 10px 10px 0px;
+  width: 60%;
+  text-align: left;
+    
+
+    top: 0px;
+
+    left: 55%;
+
+}
+.detalle_bio{
+  font-family: 'GothamBook';
+  font-size: 12px;
+  text-align: left;
+  width: 55%;
+  padding: 19px;
+  box-sizing: border-box;
+  line-height: 16px;
+}
+.detalle_tw{
+    position: absolute;
+
+  
+    width: 45%;
+  
+    height: 252px;
+    top: 40px;
+    right: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#copur-SeccionProfiles *{
+  transition: .3s;
+  -webkit-transition: .3s;
+}
+
+#copur-SeccionProfiles > div{
+    /* height: 430px; */   width: 100%;   text-align: center;   position: absolute;   top: 50%;   
+    margin-top: -360px;
+
+}
+
+#copur-SeccionProfiles .txt0{
+    font-family: 'GothamBook';   color: #fff;   
+    font-size: 24px;   width: 100%;   position: relative;   padding: 0;   font-weight: 600;   
+    line-height: 32px;
+}
+#copur-SeccionProfiles .txt1{
+    font-family: 'GothamBook';   color: #fff;   
+    font-size: 20px;   width: 100%;   position: relative;   padding: 0;      
+}
+#copur-atletas-holder-items{
+    position: relative;
+    width: 689px;
+    height: 380px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 11px;
+}
+.copurItemAtleta{
+    position: relative;
+    /* float: left; */
+    width: 170px;
+    height: 170px;
+    margin: 2px;
+    display: inline-block;
+    cursor: pointer;
+}
+.copurItemAtleta img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.copurItemAtleta div{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(256,256,256, 0.8);
+    bottom: 0px;
+    color: rgb(205, 9, 10);
+    font-family: 'GothamBook';      
+    font-size: 16px;         
+    padding: 15px 10px 15px 10px;
+    box-sizing: border-box;
+}
+                          
+#Boxeo-Kiria{}
+#Lucha-Espinal{}
+#Tenis_Mesa-Adriana_Diaz{}
+#Tenis-Mesa_Melanie{}
+#Tenis-Monica{}
+#Vela-Quique{}
+#Volleyball-Piky{}
+
+
+
+
+.copurDetalleHolder_open{
+  display: block;
+}
+
+
+
+
+
+
+/*______________________ DONAR _______________________________________________________________________________________________*/
+
+#copur-SeccionDonar{
+    left: 300%;
+}
+
+
+
+#copur-SeccionDonar > div{
+      height: 250px;
+      width: 640px;
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-top: -270px;
+      margin-left: -313px;
+}
+
+
+#copur-SeccionDonar .txt0{
+    font-family: 'GothamBold';   color: #fff;   
+    font-size: 32px;      
+    width: 100%;   position: relative;   
+    /* float: left; */
+    text-align: center;
+    line-height: 75px;
+}
+
+#copur-SeccionDonar .txt1{
+    font-family: 'GothamBook';   color: #fff;   
+    font-size: 15px;      
+    width: 100%;   position: relative;   
+    /* float: left; */
+    line-height: 18px;
+    text-align: justify;
+}
+#copur-SeccionDonar .txt1 a{
+    color: yellow;
+    text-decoration: none;
+}
+#SeccionDonar-btn{
+    margin: 0 auto;
+    display: block;
+    width: 250px;
+    margin-top: 25px;
+}
+
+
+.mostrando{
+  display: block !important;
+}
+
+
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+
+
+/*@media (max-width: 1300px) {
+*/
+
+    #copur-SeccionHome > div{
+        width: 750px;
+        margin-left: -380px;
+        margin-top: -310px;
+    }
+    #copur-SeccionHome .txt0{
+        width: 430px;
+        font-size: 86px;
+        line-height: 96px;
+    }
+    #copur-SeccionHome .txt0 span{
+      font-size: 98px;
+    }
+    #copur-SeccionHome .txt1{
+        font-size: 18px;
+        letter-spacing: 2.5px;
+        margin-top: -21px;
+        padding-left: 7px;
+    }
+    #copur-SeccionHome .txt2{
+        width: 320px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+
+/*}*/ 
+
+@media all and (max-width: 1025px) {
+.copurDetalleHolder{}
+    #copur-SeccionHome > div{
+        width: 440px;
+        margin-left: -220px;
+        text-align: center;
+        margin-top: -375px;
+    }
+
+    #copur-SeccionHome .txt0{
+        font-size: 91px;
+    }
+    #copur-SeccionHome .txt0 span{
+        font-size: 102.9px;
+    }
+    #copur-SeccionHome .txt1{
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        font-size: 19px;
+    }
+    #copur-SeccionHome .txt2{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 10px 0px 10px;
+    }
+    #copur-home-content-btns{
+        padding-top: 15px;
+
+    
+        height: auto;
+}
+    #copur-home-btn-quiero-donar{
+        margin-right: 0;
+
+        width: 290px;
+        margin-bottom: 16px;
+    }
+
+    #copur-home-btn-quiero-profiles{
+        margin-left: 0;
+            
+        width: 290px;
+        font-size: 16px;
+    }
+
+    #copur-SeccionDonar > div{
+        width: 440px;
+        margin-left: -224px;
+      }
+        #copur-selector-flecha_izq{
+    margin-left: 0;
+    left: 58px;
+  }
+    #copur-selector-flecha_der{
+      margin-left: 0;
+      left: auto;
+      right: 57px;
+  }
+   #copur-SeccionVideo > div{
+
+
+
+   }
+}
+
+@media (max-width: 970px) {
+
+.copurDetalleHolder{
+    width: 100%;
+}
+  #copur-SeccionVideo > div{
+    margin-top: -360px;
+
+      
+
+   }
+   
+.pico-detalle_ziq{
+    margin-left: -170px;
+  
+}
+.pico-detalle_der{
+    margin-left: 142px;
+  
+}
+
+#copur-SeccionVideo .video{
+    width: 500px;
+  
+    height: 350px;
+}
+  #copur-SeccionDonar > div{
+        margin-top: -291px;
+  }
+
+  #copur-SeccionProfiles > div{
+    margin-top: -368px;
+  }
+
+  #copur-SeccionProfiles .txt0{
+    padding: 0px 110px 0px 110px;
+    box-sizing: border-box;
+    line-height: 24px;
+  }
+
+  #copur-SeccionProfiles .txt1{
+    font-size: 14px;
+    margin-top: 3px;
+  }
+
+  #copur-atletas-holder-items{
+    width: 570px;
+  }
+  .copurItemAtleta{
+    width: 150px;   
+    height: 150px;
+  }
+
+}
+
+
+@media all and (max-width:730px) {
+  .detalle_bio{
+    font-size: 11px;
+    
+  
+    line-height: 12px;
+}
+  #copur-atletas-holder-items {
+  width: 420px;
+}
+  .copurDetalleHolder{
+    /* width: 389px; */
+}
+  .copurItemAtleta {
+  width: 120px;
+  height: 120px;
+}
+  #copur-SeccionVideo > div{
+    margin-top: -320px;
+
+      
+
+   }
+   
+.pico-detalle_ziq{
+    margin-left: -140px;
+  
+}
+.pico-detalle_der{
+    margin-left: 112px;
+  
+}
+
+   #copur-SeccionProfiles > div {
+  margin-top: -346px;
+}
+    #copur-SeccionVideo .video{
+        width: 60%; 
+        height: 260px;
+    }
+    #copur-SeccionVideo .txt0{
+        font-size: 17px; 
+    }
+    .copurItemAtleta div {
+    font-size: 13px;
+    padding: 10px 5px 10px 5px;
+}
+}
+@media (max-width: 640px) {
+  .tw_title{
+    display:none
+  }
+  .detalle_tw{
+    display:none;
+  }
+  .bio_title{
+    width:100%;
+  
+    margin-top: 30px;
+}
+  .copurDetalleHolder{
+    width: 388px;
+  
+    /* height: auto; */
+}
+#copur-SeccionVideo .video{
+    width: 70%;
+  
+    height: 250px;
+}
+    #copur-SeccionVideo > div{
+        height: auto;
+        top: auto;
+        position: relative;
+        margin-top: 40px;
+    }
+    #copur-atletas-holder-items{
+        clear: both;
+    
+        height: auto;
+        width: 400px;
+}
+    #copur-secciones{
+        transform: translate(0%, 0px) !important;
+    }
+    
+    #copur-SeccionProfiles > div{
+        margin-top: 40px;
+        position: relative;
+    
+}
+.copur_atletas_expandidos_div{
+  margin-top: 40px !important;
+}
+    #copur{
+        height: auto;
+    
+        background-image: url(../img/fondos/bgMobile.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+        /* background-attachment: fixed; */
+}
+    .seccionCopur{
+        position: relative;
+        height: auto;
+        clear: both;
+        left: 0 !important;
+        margin-top: 0px;
+    }
+    #copur-selector-flecha_izq {
+        display: none;
+    }
+    #copur-selector-flecha_der {
+        display: none;
+    }
+    #copur-SeccionHome > div{
+      position: relative;
+      margin-left: auto;
+      left: auto;
+      width: 430px;
+      top: auto;
+      height: auto;
+      margin: 0 auto;
+      margin-top: 70px;
+    }
+    #copur-SeccionDonar{
+        height: auto;
+    }
+    #copur-SeccionDonar > div{
+        width: 320px;
+        margin-left: 0;
+        margin-top: 0px;
+        position: relative;
+        left: 0;
+        top: 0;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .detalle_bio{
+    width: 100%;
+      
+    font-size: 12px;
+    line-height: 16px;
+}
+    .copurDetalle-cerrar-btn{
+      right: 2px;
+        
+      top: 2px;
+  }
+  .tw_inline{display:block}
+  .detalle_abierto {
+    height: 335px !important;
+  }
+  .copurDetalleHolder > div {
+
+  }
+}
+
+
+@media (max-width: 460px) {
+  .copurDetalleHolder{
+    width: 100%;
+}
+  #copur-home-btn-quiero-profiles{
+    padding: 9px 20px 8px 20px;
+    
+  
+    width: 245px;
+  }
+  #copur-home-btn-quiero-donar{
+    padding: 9px 20px 8px 20px;
+    
+  
+    width: 245px;
+}
+    #copur-SeccionHome > div {
+      width: 264px;
+      margin-left: auto;
+    
+    }
+    #copur-SeccionHome .txt0{
+      font-size: 52px;
+      width: 100%;
+      line-height: 54px;
+    }
+    #copur-SeccionHome .txt0 span{
+        font-size: 58px;
+    }
+    #copur-SeccionHome .txt1{
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    #copur-SeccionHome .txt2{
+        font-size: 12px;
+    
+        float: none;
+}
+    #copur-SeccionProfiles .txt0{
+        padding: 0px 20px 0px 20px;
+        font-size: 20px;
+    }
+    #copur-SeccionProfiles .txt1{
+        font-size: 12px;
+    
+        width: 300px;
+        margin: 0 auto;
+}
+  #copur-SeccionDonar .txt1 {
+    font-size: 12px;
+  
+    width: 241px;
+    margin: 0 auto;
+  }
+  #copur-home-content-btns{
+      height: auto;
+
+    
+  }
+  #copur-SeccionVideo .video{
+    height: 200px;
+    
+   
+  }
+}
+
+@media (max-width: 400px) {
+      .copurDetalleHolder{}
+      #copur-atletas-holder-items{
+        width: 100%;
+      }
+      .copurItemAtleta{
+        width: 220px;   
+        height: 220px;
+      }
+
+}
+

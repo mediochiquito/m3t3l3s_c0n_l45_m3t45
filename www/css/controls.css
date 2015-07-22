@@ -1,0 +1,163 @@
+#ToastMessage{
+	background-color: #000;
+	opacity: .8;
+	padding: 20px;
+	color: #fff;
+	position: fixed;
+	top: 50%;
+	width: 430px;
+	border-radius: 30px;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 22px;
+	left: 50%;
+	margin-left: -234px;
+	/* opacity: 0; */
+	text-align: center;
+	margin-top: -70px;
+	display: none;
+}
+
+#loading{
+    width: 100%;
+    height: 100%;
+    left:0px;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(255,255,255, .5);
+}
+
+#loading_gif{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    left:50%;
+    margin-left: -20px;
+    top:50%;
+    margin-top: -20px;
+    background: url(../img/contour/load.png) no-repeat;
+    background-position: center;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;  
+
+
+	
+    -webkit-animation: ratar .4s infinite linear;
+	-moz-animation: ratar .4s infinite linear;
+    -ms-animation: ratar .4s infinite linear;
+    -o-animation: ratar .4s infinite linear;
+}
+
+
+
+@-webkit-keyframes  ratar {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% { 
+   -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes  ratar {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% { 
+   -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes  ratar {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  100% { 
+   -ms-transform: rotate(360deg);
+  }
+}
+@-o-keyframes  ratar {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% { 
+   -o-transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+.BotonImg{
+	position: absolute;
+}
+
+input,textarea, select{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	outline: none;
+}
+
+.BotonImg{
+	position: absolute;
+}
+input,textarea, select{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	outline: none;
+}
+.InputText{
+	position: relative;
+	font-family: 'GothamBold';
+	font-size: 16px;
+	height: 36px;
+    
+	line-height: 16px; 
+	border: solid 2px #fff;
+	
+	 border-radius: 0px;
+	padding-left: 10px;
+	background-color: #fff;
+	padding-right: 10px;
+	color: rgb(102, 102, 102);
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	border-radius: 26px;
+	padding-top: 5px;
+}
+.InputTextError{
+	background-color: rgb(255, 79, 79);
+	border-color: red;
+}
+
+.check-tyc{
+    margin-right: 6px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
+.text_tyc{
+    color: #FFF;
+    font-family: 'GothamBold';
+    font-size: 15px;
+    margin-top: 12px;
+    text-transform: none;
+    /* text-decoration: underline; */
+}
+
+.text_tyc span{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.text_tyc span:hover{
+    transform: scale(0.95);
+}
+
+@media all and (max-width: 400px) {
+    #ToastMessage {
+        width: 300px;
+        box-sizing: border-box;
+        margin-left: -150px;
+        margin-top: 40px;
+    }
+}

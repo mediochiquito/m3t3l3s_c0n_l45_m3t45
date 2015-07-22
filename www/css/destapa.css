@@ -1,0 +1,219 @@
+#destapa{
+	background-image: url(../img/secciones/destapa/bg.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#wrapper-texto-destapa h1
+{
+	font-family: 'Conv_Gotham-Medium';
+	color: #FFF;
+	font-size: 54px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+#btn-destapa
+{
+	width: 160px;
+	height: 26px;
+	background: #FFF;
+	-webkit-border-radius: 11px;
+	-moz-border-radius: 11px;
+	border-radius: 11px;
+	float: left;
+	margin-top: 15px;
+	cursor: pointer;
+	font-family: 'Conv_Gotham-Medium';	
+	color:rgb(227, 30, 38);
+	font-size: 16px;
+	text-align: center;	
+	padding-top: 7px
+}
+#wrapper-texto-destapa{
+    position: relative;
+	
+    width: 340px;
+    float: left;
+    margin-top: 220px;
+}
+#wrapper-texto-destapa span {
+  font-family: 'GothamBook';
+  color: #FFF;
+  font-size: 18px;
+  font-weight: normal;
+  width: 100%;
+  float: left;
+}
+
+#destapa-content{
+	position: absolute;
+	width: 580px;
+	height: 560px;
+	left: 50%;
+	margin-left: -250px;
+	bottom: 0px;
+	transition: 2s;
+
+	transform: translateY(0px);
+}
+
+.destapa-content-bajar{
+
+	transform: translateY(400px) !important;
+
+}
+
+
+#destapa-botella{
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+#destapa-botella .envase{
+	position: relative;
+	 height: 660px;
+}
+
+#destapa-botella .delay1{
+	opacity: 0;
+	-webkit-animation-delay: 1.2s !important;
+	-moz-animation-delay: 1.2s !important;
+	-ms-animation-delay: 1.2s !important;
+	-o-animation-delay: 1.2s !important;
+
+}
+
+#destapa-botella .contenido{
+	position: absolute;
+	height: 660px;
+
+	-webkit-animation: humo 2s infinite cubic-bezier(0, 0.9, 1, 1);
+	-moz-animation: humo 2s infinite cubic-bezier(0, 0.9, 1, 1);
+    -ms-animation: humo 2s infinite cubic-bezier(0, 0.9, 1, 1);
+    -o-animation: humo 2s infinite cubic-bezier(0, 0.9, 1, 1);
+}
+
+
+@-moz-keyframes  humo {
+  0% {
+  	 opacity:0 ;
+    -moz-transform: scale(.3, .3);
+  }
+  50% {
+  	 opacity:1 ;
+  }
+  100% { 
+   -moz-transform: scale(1, 1) translateY(-50px);
+    opacity:0 ;
+  }
+}
+@-o-keyframes  humo {
+  0% {
+  	 opacity:0 ;
+    -o-transform: scale(.3, .3);
+  }
+  50% {
+  	 opacity:1 ;
+  }
+  100% { 
+   -o-transform: scale(1, 1) translateY(-50px);
+    opacity:0 ;
+  }
+}
+
+@-ms-keyframes  humo {
+  0% {
+  	 opacity:0 ;
+    -ms-transform: scale(.3, .3);
+  }
+  50% {
+  	 opacity:1 ;
+  }
+  100% { 
+   -ms-transform: scale(1, 1) translateY(-50px);
+    opacity:0 ;
+  }
+}
+
+
+@-webkit-keyframes  humo {
+  0% {
+  	 opacity:0 ;
+    -webkit-transform: scale(.3, .3);
+  }
+  50% {
+  	 opacity:1 ;
+  }
+  100% { 
+   -webkit-transform: scale(1, 1) translateY(-50px);
+    opacity:0 ;
+  }
+}
+
+#iframe-destapa
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 104%;
+	height: 100%;
+	border:none;
+
+	background-color: #fff;
+}
+
+@media all and (max-width:640px) {
+	
+	#destapa{
+		background-image: url(../img/secciones/destapa/bg_mobile.jpg);
+	}
+
+}
+@media all and (max-width:520px) {
+
+	#destapa-botella .contenido {
+ 
+ height: 500px;
+}
+#destapa-botella .envase {
+ 
+ height: 500px;
+}
+	#wrapper-texto-destapa h1
+	{
+    font-size: 32px;
+
+	}
+	#btn-destapa
+	{
+
+	}
+	#wrapper-texto-destapa{
+    width: 160px;
+
+	
+    overflow: hidden;
+    margin-top: 101px;
+}
+	#wrapper-texto-destapa span {
+    font-size: 15px;
+
+	}
+
+	#destapa-content{
+    width: 300px;
+
+	
+    margin-left: -150px;
+    height: 470px;
+}
+
+	#destapa-botella{
+		height: 500px;
+
+
+		margin-right: 10px;
+	}
+
+
+}

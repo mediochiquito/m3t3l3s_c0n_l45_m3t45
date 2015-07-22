@@ -1,0 +1,39 @@
+
+16:25:29 - /cocacolapuertorico.com/public/secciones/contour/?code=f0aecc129f9d451bad414340c513a7ce - |POST| 
+17:33:04 - /cocacolapuertorico.com/public/secciones/contour/?code=f38a5ec13a624aae8249542cfe0551db - |POST| 
+17:51:06 - /cocacolapuertorico.com/public/secciones/contour/?code=be36157cb5ca4c639a5a205ea5c47818 - |POST| 
+17:52:30 - /cocacolapuertorico.com/public/process/setImg.php - |POST|  uid=21816379 & a=Array &
+17:57:25 - /cocacolapuertorico.com/public/secciones/contour/?code=667999e0f2684ea09af9fb5ef4620178 - |POST| 
+17:57:43 - /cocacolapuertorico.com/public/process/setImg.php - |POST|  uid=21816379 & a=Array &
+17:57:57 - /cocacolapuertorico.com/public/process/ws.php?method=add - |POST|  nombre=wqrwer & apellido=qwewqe@asd.asd & email=qwewqe@asd.asd & at=21816379.11a601f.0f4a1e9fd8584c439464191e46a3ee69 & uid=21816379 & hash=<br />
+<b>Warning</b>:  imagecreatefrompng(../img/contour/tapa_botella_layout2.png) [<a href=\'function.imagecreatefrompng\'>function.imagecreatefrompng</a>]: failed to open stream: No such file or directory in <b>/var/www/cocacolapuertorico.com/public/process/setImg.php</b> on line <b>17</b><br />
+<br />
+<b>Warning</b>:  imagecopyresampled() expects parameter 2 to be resource, boolean given in <b>/var/www/cocacolapuertorico.com/public/process/setImg.php</b> on line <b>22</b><br />
+e09d955e4c09a3a55fb04c4c16515fbe & m=0 & t=0 &
+17:58:45 - /cocacolapuertorico.com/public/process/ws.php?method=add - |POST|  nombre=wqrwer & apellido=qwewqe@asd.asd & email=qwewqe@asd.asd & at=21816379.11a601f.0f4a1e9fd8584c439464191e46a3ee69 & uid=21816379 & hash=<br />
+<b>Warning</b>:  imagecreatefrompng(../img/contour/tapa_botella_layout2.png) [<a href=\'function.imagecreatefrompng\'>function.imagecreatefrompng</a>]: failed to open stream: No such file or directory in <b>/var/www/cocacolapuertorico.com/public/process/setImg.php</b> on line <b>17</b><br />
+<br />
+<b>Warning</b>:  imagecopyresampled() expects parameter 2 to be resource, boolean given in <b>/var/www/cocacolapuertorico.com/public/process/setImg.php</b> on line <b>22</b><br />
+e09d955e4c09a3a55fb04c4c16515fbe & m=0 & t=0 &
+18:02:41 - /cocacolapuertorico.com/public/secciones/contour/?code=a97e2d399b2148cdbd7e75c4ec12cf3f - |POST| 
+18:05:54 - /cocacolapuertorico.com/public/process/setImg.php - |POST|  uid=21816379 & a=Array &
+18:06:18 - /cocacolapuertorico.com/public/process/setImg.php - |POST|  uid=21816379 & a=Array &
+18:07:08 - /cocacolapuertorico.com/public/process/setImg.php - |POST|  uid=21816379 & a=Array &
+18:07:48 - /cocacolapuertorico.com/public/process/ws.php?method=add - |POST|  nombre=wqrwer & apellido=qwewqe@asd.asd & email=qwewqe@asd.asd & at=21816379.11a601f.0f4a1e9fd8584c439464191e46a3ee69 & uid=21816379 & hash=90a9bd40e6a811b7333d580bfe47bd3e & m=0 & t=0 &
+18:08:36 - /cocacolapuertorico.com/public/process/ws.php?method=add - |POST| 
+18:17:54 - /cocacolapuertorico.com/public/secciones/contour/?code=d176ac092c03476c83cb791143d75864 - |POST| 
+19:02:05 - /cocacolapuertorico.com/public/secciones/contour/?code=6083c52cd7074d98a2629b12db1b1c2f - |POST| 
+19:02:46 - /cocacolapuertorico.com/public/secciones/contour/?code=de401894995f4b94aa763bf887b32196 - |POST| 
+19:09:54 - /cocacolapuertorico.com/public/backend/validar.php?accion=1 - |POST|  user=admin & pass=coca.1234 &
+19:09:57 - /cocacolapuertorico.com/public/backend/ajax.process/promo_100/usuarios/get.php - |POST|  p=1 & f=0 &
+19:10:03 - /cocacolapuertorico.com/public/backend/ajax.process/promo_100/usuarios/get.php - |POST|  p=2 & f=0 &
+19:10:04 - /cocacolapuertorico.com/public/backend/ajax.process/promo_100/usuarios/get.php - |POST|  p=3 & f=0 &
+19:10:06 - /cocacolapuertorico.com/public/backend/ajax.process/promo_100/usuarios/get.php - |POST|  p=1 & f=1 &
+19:10:06 - /cocacolapuertorico.com/public/backend/ajax.process/promo_100/usuarios/get.php - |POST|  p=2 & f=1 &
+19:10:08 - /cocacolapuertorico.com/public/backend/ajax.process/promo_100/usuarios/get.php - |POST|  p=1 & f=0 &
+19:10:27 - /cocacolapuertorico.com/public/backend/ajax.process/promo_100/usuarios/get.php - |POST|  p=2 & f=0 &
+19:10:27 - /cocacolapuertorico.com/public/backend/ajax.process/promo_100/usuarios/get.php - |POST|  p=3 & f=0 &
+19:10:29 - /cocacolapuertorico.com/public/backend/ajax.process/promo_100/usuarios/get.php - |POST|  p=4 & f=0 &
+19:16:55 - /cocacolapuertorico.com/public/secciones/contour/?code=f8b9fc79dd174688955054a32c97f385 - |POST| 
+19:17:40 - /cocacolapuertorico.com/public/process/setImg.php - |POST|  uid=476383054 & a=Array &
+19:18:09 - /cocacolapuertorico.com/public/process/ws.php?method=add - |POST|  nombre=Mate & apellido=Mate & email=Aaa@asa.com & at=476383054.11a601f.7103635d58364f1cacc98973794426e6 & uid=476383054 & hash=13be25eeb78c49f172d7548c852fd849 & m=0 & t=0 &
